@@ -18,3 +18,4 @@
 ### Fake Trello ERD
 
 [ERD goes here]
+C:\Users\NSSStudent\Documents\GitHub\FakeTrello\FakeTrello\FakeTrelloERD.png
