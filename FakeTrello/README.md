@@ -17,4 +17,5 @@
 
 ### Fake Trello ERD
 
-![Alt text](/relative/path/to/FakeTrelloERD.png "Fake Trello")
+[ERD goes here]
+![Alt text](/relative/path/to/C:\Users\NSSStudent\Documents\GitHub\FakeTrello\FakeTrello\FakeTrelloERD.png)
