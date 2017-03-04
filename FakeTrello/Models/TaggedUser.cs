@@ -7,5 +7,6 @@ namespace FakeTrello.Models
 {
     public class TaggedUser
     {
+
     }
 }
