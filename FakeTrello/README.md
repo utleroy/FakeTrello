@@ -18,4 +18,4 @@
 ### Fake Trello ERD
 
 [ERD goes here]
-![Alt text](/relative/path/to/C:\Users\NSSStudent\Documents\GitHub\FakeTrello\FakeTrello\FakeTrelloERD.png)
+![faketrelloerd](https://cloud.githubusercontent.com/assets/16551996/23581706/204b8412-00ce-11e7-87b4-2b449ea40878.png)
