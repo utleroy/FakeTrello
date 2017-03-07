@@ -20,5 +20,7 @@ namespace FakeTrello.Models
         //given a card instance,
         //return the list it belongs to
         public List BelongsTo { get; set; }
+
+        public ICollection<TaggedUser> Tagged { get; set; }
     }
 }

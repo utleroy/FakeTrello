@@ -7,6 +7,6 @@ namespace FakeTrello.Models
 {
     public class TaggedUser
     {
-
+        public ICollection<Card> Cards { get; set; }
     }
 }
