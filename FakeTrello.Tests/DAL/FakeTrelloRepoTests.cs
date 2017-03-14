@@ -84,5 +84,37 @@ namespace FakeTrello.Tests.DAL
             // Assert
             Assert.AreEqual(1, repo.Context.Boards.Count());
         }
+
+        [TestMethod]
+        public void EnsureICanReturnBoards()
+        {
+            // Arrange
+            fake_board_table.Add(new Board { Name = "My Board" });
+            CreateFakeDatabase();
+
+            // Act
+            int expected_board_count = 1;
+            int actual_board_count = repo.Context.Boards.Count();
+
+            // Assert
+            Assert.AreEqual(expected_board_count, actual_board_count);
+        }
+
+        [TestMethod]
+        public void EnsureICanFindABoard()
+        {
+            // Arrange
+            fake_board_table.Add(new Board { BoardId = 1, Name = "My Board" });
+            CreateFakeDatabase();
+
+            // Act
+            string expected_board_name = "My Board";
+            Board actual_board = repo.GetBoard(1);
+            string actual_board_name = repo.GetBoard(1).Name;
+
+            // Assert
+            Assert.IsNotNull(actual_board);
+            Assert.AreEqual(expected_board_name, actual_board_name);
+        }
     }
 }
