@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FakeTrello.DAL
 {
-    interface IRepository
+   public interface IRepository
     {
         //list of methods to help deliver features
         //Create
