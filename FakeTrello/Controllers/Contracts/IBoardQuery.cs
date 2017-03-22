@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FakeTrello.Controllers.Contracts
 {
-    interface IBoardQuery
+    public interface IBoardQuery
     {
         List<Board> GetBoardsFromUser(string userId);
         Board GetBoard(int boardId);

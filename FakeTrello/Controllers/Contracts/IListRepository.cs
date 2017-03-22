@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 
 namespace FakeTrello.Controllers.Contracts
 {
-    interface IListRepository
+    public interface IListRepository
     {
         // create
         void AddList(string name, Board board);
